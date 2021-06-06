@@ -1,0 +1,314 @@
+* {
+    transition: all ease 0.3s;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto Slab', serif;
+    --mobile-pd: 24px;
+}
+
+h3 {
+    margin-bottom: 16px;
+}
+h4 {
+    margin-bottom: 12px;
+} @media screen and (max-width: 1000px) {
+    h4 {
+        margin-top: 24px;
+    }
+}
+
+img {
+    border-radius: 8px;
+}
+
+
+.nav-title img {
+    height: 40px;
+}
+
+.header-wrap {
+    background-image: url('./assets/1.jpg'); 
+    top: -60px; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative;
+}
+
+
+.form-wrap {
+    position: relative;
+    width: 30vw;
+    top: 16vh;
+    left: 55vw;
+} @media screen and (max-width: 1000px) {
+    .form-wrap {
+        left: 5vw;
+        width: 90vw;
+    }
+}
+.form-wrap-2 {
+    position: relative;
+    width: 30vw;
+    top: 75vh;
+    left: 15vw;
+} @media screen and (max-width: 1000px) {
+    .form-wrap-2 {
+        top: 0vh;
+        left: 5vw;
+        width: 90vw;
+    }
+}
+.contact-form {
+    padding: 3vw;
+    border-radius: 8px;
+
+    background: hsla(0, 0%, 0%, 0.6);
+    backdrop-filter: blur(8.0px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.02);
+}
+.contact-form h1 {
+    font-size: 2.7vw;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 18px;
+}  @media screen and (max-width: 1000px) {
+    .contact-form h1 {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 28px;
+    }
+}
+.contact-form h2 {
+    font-size: 1.4vw;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 18px;
+}  @media screen and (max-width: 1000px) {
+    .contact-form h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.contact-form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+} @media screen and (max-width: 1000px) {
+    .contact-form input[type=text], select {
+        font-size: 16px;
+        padding: 16px 20px;
+        margin: 10px 0;
+    }
+}
+.contact-form input[type=submit] {
+    width: 100%;
+    background-color: var(--btn-cta);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+} @media screen and (max-width: 1000px) {
+    .contact-form input[type=submit] {
+        font-size: 18px;
+        padding: 16px 20px;
+        margin-bottom: 32px;
+    }
+}
+.contact-form input[type=submit]:hover {
+    background-color: var(--btn-cta-hover);
+}
+
+
+
+
+
+.fix-bg1 {
+    position: relative;
+    height: 0;
+} .fix-bg1 .fix {
+    position: absolute;
+    background: #213452;
+    height: 60px;
+    width: 100%;
+    top: -60px;
+}
+
+
+
+.p01 {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    text-align: justify;
+}
+.p02 {
+    font-size: 14px;
+    line-height: 2.6;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    text-align: justify;
+}
+@media screen and (max-width: 1000px) {
+    .p01, .p02 {
+        font-size: 16.5px;
+        line-height: 2;
+    }
+}
+
+
+
+
+.bg1 {
+    background: #213452;
+    width: 100%;
+    height: 230px;
+}  @media screen and (max-width: 1000px) {
+    .bg1 {
+        height: initial;
+        padding: 0 var(--mobile-pd);
+        padding-bottom: 36px;
+    }
+}
+.bg2 {
+    background: #ffffff;
+    width: 100%;
+    height: 380px;
+}  @media screen and (max-width: 1000px) {
+    .bg2 {
+        height: initial;
+        padding: 0 var(--mobile-pd);
+        padding-bottom: 36px;
+    }
+}
+.bg2 .text-bg2 {
+    padding-top: 200px;
+} @media screen and (max-width: 1000px) {
+    .bg2 .text-bg2 {
+        padding-top: 0px;
+    }
+}
+.bg2 .img-bg2 {
+    margin-top: 56px;
+} @media screen and (max-width: 1000px) {
+    .bg2 .img-bg2 {
+        margin-top: 36px;
+    }
+}
+.bg3 {
+    background: #213452;
+    width: 100%;
+    height: 280px;
+} @media screen and (max-width: 1000px) {
+    .bg3 {
+        padding: 0 var(--mobile-pd);
+    }
+}
+.bg3 .text-bg3 {
+    padding-top: 100px; 
+    font-family: 'Cormorant Garamond'; 
+    font-size: 24px; 
+    font-weight: 600;
+} @media screen and (max-width: 1000px) {
+    .bg3 .text-bg3 {
+        padding-top: 78px; 
+        font-size: 32px; 
+        text-align: center;
+    }
+}
+.bg4 {
+    background: #ffffff;
+    padding: 64px 0;
+} @media screen and (max-width: 1000px) {
+    .bg4 {
+        padding: 48px var(--mobile-pd);
+    }
+}
+.bg5 {
+    background: #213452;
+    padding: 64px 0;
+} @media screen and (max-width: 1000px) {
+    .bg5 {
+        padding: 48px var(--mobile-pd);
+    }
+}
+.bg6 {
+    background: #213452;
+    margin: 24px 48px;
+    border-radius: 14px;
+} @media screen and (max-width: 1000px) {
+    .bg6 {
+        margin: 0;
+        padding: 48px var(--mobile-pd);
+        border-radius: 0;
+    }
+}
+.pd1-bg6 {
+    padding: 24px 24px 24px 48px;
+} @media screen and (max-width: 1000px) {
+    .pd1-bg6 {
+        padding: 48px var(--mobile-pd);
+    }
+}
+.bg6 .h3-1-bg6 {
+    margin-top: 52px;
+} @media screen and (max-width: 1000px) {
+    .bg6 .h3-1-bg6 {
+        margin-top: 0px;
+    }
+}
+.bg7 {
+    background-image: url("./assets/17.jpg");
+    height: 108vh;
+} @media screen and (max-width: 1000px) {
+    .bg7 {
+        height: initial;
+        padding: 24px 0;
+    }
+}
+.bg8 {
+    background: #0F1C31;
+    text-align: center;
+}
+
+
+.cta2 {
+    background: #ffffff; 
+    color: #213452; 
+    border-radius: 100px;
+} .cta2:hover {
+    background: #d6d6d6;
+    color: #213452; 
+}
+@media screen and (max-width: 1000px) {
+    .cta, .cta2 {
+        font-size: 18px;
+    }
+}
+
+
+
+.future-home img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+
+
+.footer-link {
+    margin-top: 6px;
+}
+
+.footer-logo {
+    width: 250px;
+} @media screen and (max-width: 1000px) {
+    .footer-logo {
+        width: 100%;
+    }
+}

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regal Victoria Quảng Nam</title>
+    <meta name="description" content="Dự án bất động sản Regal Victoria Quảng Nam - Đích đến của giới thượng lưu!">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="./atom-ui.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <!-- 
+        Properties:
+            nav-position: sticky/relative
+            links-position: left/center/right
+            gap: space beetween 2 links
+    -->
+    <nav nav-position="sticky" links-position="center" gap="8px 36px" style="height: 60px;">
+        <div class="main main-nav">
+            <div class="nav-title">
+                <a href="/">
+                    <img src="./assets/logo.png" alt="" style="border-radius: 0;">
+                </a>
+            </div>
+            <div class="nav-links">
+                <div class="nav-content">
+                    <a href="/">Tổng quan dự án</a>
+                    <a href="/">Quy hoạch</a>
+                    <a href="/">Thiết kế căn hộ</a>
+                    <a href="/">Tiện ích</a>
+                    <a href="/">Tiến độ thanh toán</a>
+                    <!-- <div class="nav-sub-wrap">
+                        <a href="#" class="nav-sub">Have sublink</a>
+                        <div class="nav-sub-links">
+                            <div class="nav-sub-bg">
+                                <a href="/">Sublink 1</a>
+                                <a href="/">Sublink 2</a>
+                                <a href="/">Sublink really long number 3</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <button class="cta nav-cta just-display-on-desktop" style="border-radius: 100px;">
+                Đăng ký nhận tư vấn
+            </button>
+            <div class="nav-button">
+                <button onclick="toggleNav()" style="padding: 0; background: transparent;">
+                    <img src="./assets/menu.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-wrap">
+
+        <div class="form-wrap">
+            <form action="/action_page.php" class="contact-form">
+                <h1>REGAL VICTORIA<br>QUẢNG NAM</h1>
+                <h2>ĐÍCH ĐẾN CỦA GIỚI THƯỢNG LƯU</h2>
+                <input type="text" id="name" name="name" placeholder="Họ và tên">
+                <input type="text" id="phone" name="phone" placeholder="Số điện thoại">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="submit" value="Đăng ký nhận tư vấn">
+            </form>
+        </div>
+    </div>
+
+    <!-- Scroll to top -->
+    <button id="scrolltotop" style="transform: rotate(38deg);">
+        &nwarr;
+    </button>
+
+
+    <div class="fix-bg1">
+        <div class="fix"></div>
+    </div>
+    <div class="bg1">
+        <div class="main" style="padding-top: 48px;">
+            <div class="row" gap="42px">
+                <div class="col-6">
+                    <p class="p01" style="color: #ffffff;">
+                        Regal Victoria Quảng Nam được ví như một ốc đảo nghỉ dưỡng riêng tư, một không gian tách biệt
+                        hoàn
+                        toàn với thế giới bên ngoài khi đáp ứng được những tiêu chuẩn khắt khe về chất lượng đẳng cấp
+                        quốc
+                        tế, mang đến sự thư thái trong tâm trí và nâng niu mọi giác quan của cộng đồng cư dân.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="./assets/2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg2">
+        <div class="main">
+            <div class="row" gap="42px">
+                <div class="col-6">
+                    <img src="./assets/3.jpg" alt="" class="img-bg2">
+                </div>
+                <div class="col-6">
+                    <div class="text-bg2">
+                        <p class="p01" style="color: #000000;">
+                            Lựa chọn trở thành cư dân của Regal Victoria Quảng Nam, khách hàng sẽ có cơ hội đắm chìm
+                            trong
+                            không
+                            gian kiến trúc có 1-0-2. Ở đó, mỗi căn nhà được đầu tư với tất cả tâm huyết, sự xa xỉ và
+                            đẳng
+                            cấp
+                            trong từng vật liệu xây dựng được nhập khẩu từ nước ngoài.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg3">
+        <div class="main">
+            <div class="center-x text-bg3">
+                ĐÍCH ĐẾN CỦA GIỚI THƯỢNG LƯU
+            </div>
+            <div class="center-x" style="padding-top: 16px;">
+                <button class="cta2">
+                    Đăng ký nhận tư vấn
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg4">
+        <div class="main">
+            <div class="row" gap="36px">
+                <div class="col-5">
+                    <h3 style="color: #000000;">
+                        Tổng quan dự án
+                    </h3>
+                    <p class="p02" style="color: #000000;">
+                        - Chủ đầu tư: Công ty Cổ Phần Đất Xanh Miền Trung<br>
+                        - Loại hình sản phẩm: 50 căn Villas (Biệt thự nghỉ dưỡng)<br>
+                        - Diện tích: 22.500m2<br>
+                        - Tổng vốn đầu tư:<br>
+                        - Thời gian xây dựng dự kiến: 2020-2021
+                    </p>
+                </div>
+                <div class="col-7">
+                    <img src="./assets/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg5">
+        <div class="main">
+            <div class="row" gap="36px">
+                <div class="col-6">
+                    <img src="./assets/5.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <h3 style="color: #ffffff;">
+                        Liên kết vùng và quy hoạch giao thông
+                    </h3>
+                    <p class="p02" style="color: #ffffff;">
+                        - Trung tâm thành phố<br>
+                        + Cầu sông Hàn 15 phút<br>
+                        + Sân bay quốc tế 15 phút<br>
+                        - Hệ thống giáo dục quốc tế<br>
+                        + Trường quốc tế Singapore KinderWorld: 02 phút<br>
+                        + Trường ĐH Quốc tế Mỹ - Thái Bình Dương: 05 phút<br>
+                        - Hệ thống resort, khách sạn, tổ hợp giải trí 5*<br>
+                        + Khu vực tập trung nhiều bãi tắm du kịch nổi tiếng, lối đi xuống rộng rãi<br>
+                        + Danang Golf Club và Montgomerie Links | 01 phút<br>
+                        + Cocobay – điểm đến du lịch giải trí thế giới | 01 phút<br>
+                        + Sheraton Da Nang, Nam An Retreat, Furama,...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg4">
+        <div class="main">
+            <h3 class="center-x" style="color: #000000; margin-top: 24px;">
+                Thiết kế căn hộ Regal Victoria Quảng Nam
+            </h3>
+            <div class="row" gap="12px" style="margin-top: 48px;">
+                <div class="col-4">
+                    <img src="./assets/M1.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/M1B.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/M2.jpg" alt="">
+                </div>
+            </div>
+            <div class="row" gap="12px">
+                <div class="col-4">
+                    <img src="./assets/M2B.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/M3.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/M4.jpg" alt="">
+                </div>
+            </div>
+            <div class="center-x" style="margin-top: 72px;">
+                <button class="cta" style="border-radius: 100px;">
+                    Đăng ký nhận tư vấn
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg6 pd1-bg6">
+        <div class="row" gap="48px">
+            <div class="col-6">
+                <h3 style="text-align: center;" class="h3-1-bg6">
+                    Tiện ích ngoại khu
+                </h3>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="p02">
+                            - Trường Quốc tế Kinderworld, APU, Việt Hàn<br>
+                            - Khu đô thị FPT<br>
+                            - Bãi tắm Viêm Đông<br>
+                            - Sân Golf Đà Nẵng<br>
+                            - Bệnh viện Phụ sản - Nhi;<br>
+                            - VinPearl Đà Nẵng;
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="p02">
+                            - Danh thắng Ngũ Hành Sơn<br>
+                            - Asia Park; Lotte Mart<br>
+                            - Sân bay Quốc tế Đà Nẵng<br>
+                            - Trung tâm Hành chính; TTTM Vincom<br>
+                            - Chùa Linh Ứng; Hội An
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="./assets/6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="bg6" style="padding: 24px;">
+        <div class="row" gap="48px">
+            <div class="col-6">
+                <img src="./assets/7.jpg" alt="">
+            </div>
+            <div class="col-6">
+                <h3 style="text-align: center; margin-top: 24px;">
+                    Tiện ích nội khu đẳng cấp quốc tế
+                </h3>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="p02" style="line-height: 2.2;">
+                            Công viên ven sông<br>
+                            Tiện ích khu thể thao phức hợp:<br>
+                            + Sân tennis<br>
+                            + Sân bóng rổ<br>
+                            + Sân bóng chuyền<br>
+                            Công viên trung tâm<br>
+                            Bến du thuyền
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <p class="p02" style="line-height: 2.2;">
+                            Clubhouse:<br>
+                            + Sky Bar<br>
+                            + Giải trí, kid club<br>
+                            + Spa Fitness<br>
+                            + Co - Working Space<br>
+                            Trung tâm thương mại Regal Mall:<br>
+                            + Rạp chiếu phim<br>
+                            + Nhà hàng<br>
+                            + Siêu thị thực phẩm<br>
+                            + Khu vui chơi giải trí cao cấp
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg4 future-home">
+        <div class="main">
+            <h3 class="center-x" style="color: #000000;">
+                Future Home
+            </h3>
+            <div class="row" gap="12px" style="margin-top: 64px;">
+                <div class="col-3">
+                    <img src="./assets/8.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/9.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/10.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/11.jpg" alt="">
+                </div>
+            </div>
+            <div class="row" gap="12px" style="margin-top: 10px;">
+                <div class="col-3">
+                    <img src="./assets/12.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/13.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/14.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/15.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg4">
+        <div class="main">
+            <div class="row" gap="64px">
+                <div class="col-6">
+                    <h3 style="color: #000000;">
+                        Vật liệu đẳng cấp
+                    </h3>
+                    <p class="p02" style="color: #000000;">
+                        - Hệ đá Marble Pelato nhập khẩu từ Italia ốp full mặt ngoài<br>
+                        - Kính hộp 2 lớp dày 24mm phủ 2 lớp Low-E cản tia UV, bảo vệ sức khỏe<br>
+                        - Hệ nhôm Technal/Schuco mạ Anode có độ bền trên 20 năm<br>
+                        - Kính ghép an toàn cho lan can dày 17mm<br>
+                        - Gạch Terracota ốp tường ngoài thang bộ bền vững, chịu đựng được sự biến đổi của thời thiết<br>
+                        - Sàn gỗ ngoài trời Conwood nhập khẩu Nhật Bản
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="./assets/16.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg4">
+        <div class="main">
+            <div class="row" gap="64px">
+                <div class="col-6">
+                    <img src="./assets/9.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <h3 style="color: #000000;">
+                        Hệ thống ánh sáng thông minh
+                    </h3>
+                    <p class="p02" style="color: #000000;">
+                        - Đất Xanh Miền Trung đầu tư tới 5% chi phí xây dựng cho hạng mục ánh sáng<br>
+                        - Thiết bị chiếu sáng đến từ thương hiệu Orbit (Bỉ) có hơn 20 năm kinh nghiệm trong công nghệ
+                        chiếu sáng<br>
+                        - Hệ thống ánh sáng trung tâm bên trong villa được vận hành bởi hãng công nghệ Lutron (Mỹ)<br>
+                        - CRI (độ hoàn màu) 95-97 vượt tiêu chuẩn quốc tế<br>
+                        - Điều khiển bởi mặt nạ công tắc gắn tường hoặc thiết bị như smartphone, tablet, tiện lợi, thông
+                        minh và linh hoạt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg5">
+        <div class="main">
+            <h3 class="center-x" style="color: #ffffff;">
+                Timeline
+            </h3>
+            <p style="text-align: center; font-weight: 300;">
+                Thời gian khởi công: Quý IV/2020<br>
+                Thời gian bàn giao dự kiến: Quý II/2021
+            </p>
+            <h3 class="center-x" style="color: #ffffff; margin-top: 36px;">
+                Pháp Lý Dự Án
+            </h3>
+            <p style="text-align: center; font-weight: 300;">
+                Bàn giao sổ hồng từng căn sở hữu lâu dài cho cư dân
+            </p>
+            <div class="center-x" style="padding-top: 48px;">
+                <button class="cta2">
+                    Đăng ký nhận tư vấn ngay!
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg7">
+        <div class="form-wrap-2">
+            <form action="/action_page.php" class="contact-form">
+                <h1>REGAL VICTORIA<br>QUẢNG NAM</h1>
+                <h2>ĐÍCH ĐẾN CỦA GIỚI THƯỢNG LƯU</h2>
+                <input type="text" id="name" name="name" placeholder="Họ và tên">
+                <input type="text" id="phone" name="phone" placeholder="Số điện thoại">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="submit" value="Đăng ký nhận tư vấn">
+            </form>
+        </div>
+    </div>
+
+    <div class="bg5">
+        <div class="main">
+            <div class="row">
+                <div class="col-7">
+                    &nbsp;
+                </div>
+                <div class="col-5">
+                    <img src="./assets/logo.png" alt="" class="footer-logo" style="border-radius: 0;">
+                    <div class="row" style="margin-top: 24px;">
+                        <div class="col-4">
+                            <h4>
+                                Liên kết
+                            </h4>
+                            <div class="footer-link">
+                                <a href="https://www.datxanhmientrung.com/gioi-thieu" target="_blank">
+                                    Giới thiệu
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.datxanhmientrung.com/du-an" target="_blank">
+                                    Dự án
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.datxanhmientrung.com/he-thong" target="_blank">
+                                    Hệ thống
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.datxanhmientrung.com/tin-tuc" target="_blank">
+                                    Tin tức
+                                </a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="https://www.datxanhmientrung.com/quan-he-co-dong" target="_blank">
+                                    Cổ đông
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <h4>
+                                Trụ sở chính:
+                            </h4>
+                            <p style="line-height: 1.7;">
+                                A: 52-54 Võ Văn Kiệt, Q. Sơn Trà, TP. Đà Nẵng<br>
+                                T: (0236) 6 266 266<br>
+                                E: hotro@datxanhmientrung.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg8" style="padding: 16px; font-size: 12px; font-weight: 300;">
+        Copyright © 2021 Dat Xanh Mien Trung. All Right Reserved.
+    </div>
+
+
+    <script src="./atom-ui.js" defer></script>
+
+    <script src="./scripts.js" defer></script>
+</body>
+
+</html>
